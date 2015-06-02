@@ -1,8 +1,6 @@
 /**
  * Created by hvallee on 6/2/15.
  */
-var pcmApp = angular.module('pcmApp', ['ui.grid', 'ui.grid.edit', 'ui.grid.selection', 'ui.grid.cellNav', 'ui.grid.resizeColumns']);
-
 pcmApp.controller("PCMEditorController", function($rootScope, $scope, $http, $timeout, uiGridConstants, $compile ) {
 
     // Load PCM
