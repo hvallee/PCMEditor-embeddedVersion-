@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    margin-top: 60px;
+}
+
+.editor-toolbar {
+    top: 50px ;
+    z-index:2;
+    margin-top: 10px;
+
+}
+
+#matrix {
+    margin: 10px 0px 50px 0px;
+}
+
+.buttonsCell {
+    visibility: visible;
+}
+
+.hideCell {
+    color: rgba(0, 0, 0, 0);
+}
+
+.showCell {
+    color: rgba(0, 0, 0, 1);
+}
+
+.productCell{
+    font-weight: bold;
+}
+
+.warningCell{
+    color: rgba(10, 0, 0, 1);
+    background-color : rgba(255, 230, 200, 1) !important;
+
+}
+
+.modalGrid {
+    width: 200px;
+    height: 200px;
+}
+.modal-dialog {
+    width: 250px;
+}
